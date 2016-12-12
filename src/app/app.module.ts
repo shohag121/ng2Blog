@@ -9,6 +9,9 @@ import { PostListComponent } from './posts/post-list/post-list.component';
 import {Wpng2RoutingModule} from "./app-routing.module";
 import { FooterComponent } from './footer/footer.component';
 import { PostSingleComponent } from './posts/post-single/post-single.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { PostSingleComponent } from './posts/post-single/post-single.component';
     NavBarComponent,
     PostListComponent,
     FooterComponent,
-    PostSingleComponent
+    PostSingleComponent,
+    AboutComponent,
+    ContactComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

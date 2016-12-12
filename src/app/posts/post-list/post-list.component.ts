@@ -27,7 +27,7 @@ export class PostListComponent implements OnInit {
     this.getPosts();
   }
   selectPost(slug) {
-    this.router.navigate([slug]);
+    this.router.navigate(['article', slug]);
   }
 
 }
