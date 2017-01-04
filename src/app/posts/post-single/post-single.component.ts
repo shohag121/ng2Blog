@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, ViewChild, ElementRef} from '@angular/core';
 import { Post } from '../post';
 import { PostsService } from '../posts.service';
 import { Router, ActivatedRoute, Params } from '@angular/router';
@@ -37,6 +37,7 @@ export class PostSingleComponent implements OnInit {
       let slug = params['slug'];
       this.getPost(slug)
     });
+
 
   }
 
