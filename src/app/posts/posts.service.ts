@@ -10,7 +10,7 @@ import { Post } from './post';
 @Injectable()
 export class PostsService {
 
-  private _wpBase = "https://blog.shazahanul.ml/wp/wp-json/wp/v2/";
+  private _wpBase = "https://shazahanul.ml/api/wp-json/wp/v2/";
 
   constructor(private http: Http) { }
 
